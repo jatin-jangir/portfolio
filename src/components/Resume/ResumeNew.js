@@ -8,7 +8,8 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink ="https://raw.githubusercontent.com/jatin-jangir/python/e28745e93df4e494cc1b43b9e603c01f434cff10/jatin%20jangir%20resume.pdf";
+const resumeLink ="https://github.com/jatin-jangir/python/blob/main/jatin%20jangir%20resume%20(3).pdf:;
+      //"https://raw.githubusercontent.com/jatin-jangir/python/e28745e93df4e494cc1b43b9e603c01f434cff10/jatin%20jangir%20resume.pdf";
   //"https://raw.githubusercontent.com/jatin-jangir/python/611e29850854a35e6b815f6ff870083db152d02e/Resume_47%20(2).pdf";
 
 function ResumeNew() {
