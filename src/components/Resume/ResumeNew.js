@@ -67,7 +67,7 @@ function ResumeNew() {
   );
 }
 
-export default ResumeNew;:;
+export default ResumeNew :"https://raw.githubusercontent.com/jatin-jangir/python/08b4f1786c730383e36568fb44b678c2211ff150/jatin%20jangir%20resume%20(3).pdf";
       //"https://raw.githubusercontent.com/jatin-jangir/python/e28745e93df4e494cc1b43b9e603c01f434cff10/jatin%20jangir%20resume.pdf";
   //"https://raw.githubusercontent.com/jatin-jangir/python/611e29850854a35e6b815f6ff870083db152d02e/Resume_47%20(2).pdf";
 
