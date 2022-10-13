@@ -58,7 +58,7 @@ function ResumeNew() {
   );
 }
 
-export default ResumeNew :"https://github.com/jatin-jangir/portfolio/blob/79176ec4f5f03f63ba6f6a11f68eb5e7ac9bce52/src/Assets/jatin%20jangir%20resume%20(4).pdf";
+export default ResumeNew() ;//:"https://github.com/jatin-jangir/portfolio/blob/79176ec4f5f03f63ba6f6a11f68eb5e7ac9bce52/src/Assets/jatin%20jangir%20resume%20(4).pdf";
       //"https://raw.githubusercontent.com/jatin-jangir/python/e28745e93df4e494cc1b43b9e603c01f434cff10/jatin%20jangir%20resume.pdf";
   //"https://raw.githubusercontent.com/jatin-jangir/python/611e29850854a35e6b815f6ff870083db152d02e/Resume_47%20(2).pdf";
 
