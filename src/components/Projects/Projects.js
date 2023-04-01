@@ -9,7 +9,9 @@ import game from "../../Assets/Projects/2048.png";
 import pathFinder from "../../Assets/Projects/ai.PNG";
 import library from "../../Assets/Projects/library.png";
 import webScrapping from "../../Assets/Projects/news.png";
-
+import dcaas from "../../Assets/Projects/dcaas.png";
+import darpan from "../../Assets/Projects/darpan.png";
+import youtube from "../../Assets/Projects/youtube.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -24,6 +26,24 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={darpan}
+              isBlog={false}
+              title="DARPAN"
+              description="ML tool that oprimise the search results of youtube according to you. Also give the audiance reactions statistics."
+              link="https://github.com/jatin-jangir/darpan"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={youtube}
+              isBlog={false}
+              title="Youtube seacrh result improvement API"
+              description="The REST API for getting information about any topic from youtube. This API is build on flask. We are using YouTube V3 api services to build our API"
+              link="https://github.com/jatin-jangir/Youtube_API"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={pathFinder}
               isBlog={false}
               title="AI Algorithms Visualiser"
@@ -31,7 +51,15 @@ function Projects() {
               link="https://github.com/jatin-jangir/AI-path-finder"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dcaas}
+              isBlog={true}
+              title="Data Center as a Service"
+              description="A traditional Data Center is a physical facility where companies store their data and applications. It requires significant infrastructure to keep the hardware and software running, including routers, storage systems, and servers. "
+              link="https://github.com/jatin-jangir/DataCenterWebSite"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={webScrapping}

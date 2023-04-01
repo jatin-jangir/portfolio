@@ -1,36 +1,32 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiJavascript1,
   DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
   DiGit,
-  DiJava,
-  DiHtml5,
-  DiCss3,
   DiDjango,
   DiSpark,
   DiBootstrap,
+  DiDocker,
+  DiGithubBadge,
+  DiNginx,
+  DiJenkins,
 } from "react-icons/di";
 import {
-  SiMysql,
   SiQuasar,
+  SiKubernetes,
+  SiHelm,
+  SiAmazonaws,
+  SiGrafana,
+  SiPrometheus,
+  SiLinux,
+  SiGitlab,
+  SiTerraform,
+  SiHomebrew,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMysql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiDjango />
         </Col>
@@ -38,31 +34,55 @@ function Techstack() {
         <DiSpark />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiCss3 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiBootstrap />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiQuasar />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKubernetes />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHelm />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonaws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGrafana />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPrometheus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTerraform />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiLinux />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNginx />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGithubBadge />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGitlab />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJenkins />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHomebrew />
       </Col>
     </Row>
   );

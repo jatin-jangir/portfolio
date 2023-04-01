@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
+import Languages from "./Languages";
+import Database from "./Database";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
@@ -38,7 +40,16 @@ function About() {
         </h1>
 
         <Techstack />
+        <h1 className="project-heading">
+          Programming and Scripting<strong className="purple">Languages </strong>
+        </h1>
 
+        <Languages />
+        <h1 className="project-heading">
+          Familier <strong className="purple">Database Tools </strong>
+        </h1>
+
+        <Database />
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
