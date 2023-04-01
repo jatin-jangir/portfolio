@@ -2,14 +2,13 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/jatin jangir resume (4).pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 
-const resumeLink ="https://github.com/jatin-jangir/portfolio/blob/79176ec4f5f03f63ba6f6a11f68eb5e7ac9bce52/src/Assets/jatin%20jangir%20resume%20(4).pdf";
+const resumeLink ="https://raw.githubusercontent.com/jatin-jangir/portfolio/327ac37a2442b25549ca805803ea7a9d26531cc6/jatinJangirResume.pdf";
       //"https://raw.githubusercontent.com/jatin-jangir/python/e28745e93df4e494cc1b43b9e603c01f434cff10/jatin%20jangir%20resume.pdf";
   //"https://raw.githubusercontent.com/jatin-jangir/python/611e29850854a35e6b815f6ff870083db152d02e/Resume_47%20(2).pdf";
 
