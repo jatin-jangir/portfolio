@@ -9,7 +9,7 @@ import game from "../../Assets/Projects/2048.png";
 import pathFinder from "../../Assets/Projects/ai.PNG";
 import library from "../../Assets/Projects/library.png";
 import webScrapping from "../../Assets/Projects/news.png";
-import dcaas from "../../Assets/Projects/dcaas.png";
+import dcaas from "../../Assets/Projects/dcass.png";
 import darpan from "../../Assets/Projects/darpan.png";
 import youtube from "../../Assets/Projects/youtube.png";
 function Projects() {

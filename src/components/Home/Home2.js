@@ -28,27 +28,23 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Data Science and Natural Launguage Processing.
-                </b>
-              </i>
+              I am a DevOps intern with a passion for building efficient and scalable infrastructure. My interest in technology and software engineering led me to pursue a career in DevOps, and I am excited to showcase some of the projects I have worked on during my internship.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              As a DevOps intern, I have had the opportunity to work with various tools and technologies such as 
+              <i>
+                <b className="purple">Docker, Kubernetes, Jenkins, AWS, and Terraform. </b>
+              </i>
+                Throughout my internship, I have focused on improving the deployment process, reducing downtime, and implementing automation to streamline operations.
+              <br />
+              <br />
+              In this portfolio, you will find examples of my work on DevOps projects, including infrastructure automation, continuous integration and deployment, and monitoring and troubleshooting. I am constantly learning and striving to improve my skills, and I am excited to continue my journey as a DevOps engineer.
+              <br />
+              <br />
               <i>
                 <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
+                      Thank you for taking the time to visit my portfolio, and please feel free to contact me if you have any questions or would like to discuss potential opportunities.
                 </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Quasar</b>
               </i>
             </p>
           </Col>
